@@ -1,0 +1,34 @@
+{
+    "stage": "1/4",
+    "statement": "Start silly, acceleration for the count. Given list of products, return back the count and you get a furious start",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": [
+            {
+                "price": 1737,
+                "name": "Apple iPhone 6s 128GB Space Grey Refurbished"
+            },
+            {
+                "price": 999,
+                "name": "Nokia 3220"
+            },
+            {
+                "price": 1737,
+                "name": "iBall Slide Brace-X1 Mini 16GB"
+            },
+            {
+                "price": 786,
+                "name": "Dekor World POLKA DOT DIWAN SET- PACK OF 8 PCS"
+            },
+            {
+                "price": 654,
+                "name": "Swayam Yellow Colour Floral Printed Eyelet Door Curtain - Window Curtain"
+            }
+        ]
+    },
+    "sampleOutput": {
+        "output": {
+            "count": 5
+        }
+    }
+}

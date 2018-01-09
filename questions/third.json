@@ -1,0 +1,50 @@
+{
+    "stage": "3/4",
+    "statement": "That was easy!! Now that we have the active product, its fairly easy to get active products of the day by category",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' request should not exceed 2 secs",
+    "sampleInput": {
+        "input": [
+            {
+                "endDate": "2017-04-04",
+                "startDate": "2017-01-30",
+                "price": 260,
+                "category": "Kitchen",
+                "name": "Stainless Steel Cutter Peeler Tool Pineapple Seed Clip Home Kitchen Gadgets"
+            },
+            {
+                "endDate": "2018-12-04",
+                "startDate": "2017-01-30",
+                "price": 149,
+                "category": "Kitchen",
+                "name": "20.5cm Fruit Cutter Chef Kitchen Cutlery Knife Knives Choice - 07"
+            },
+            {
+                "endDate": null,
+                "startDate": "2017-01-30",
+                "price": 1737,
+                "category": "Electronics",
+                "name": "LETV LeEco Le 2 32GB Rose Gold"
+            },
+            {
+                "endDate": null,
+                "startDate": "2018-01-30",
+                "price": 999,
+                "category": "Electronics",
+                "name": "Nokia 1100"
+            },
+            {
+                "endDate": null,
+                "startDate": "2018-01-30",
+                "price": 499,
+                "category": "Furniture",
+                "name": "Homefab India Set of 2  Beautiful Marble Plain Black Curtains (HF342)"
+            }
+        ]
+    },
+    "sampleOutput": {
+        "output": {
+            "Electronics": 1,
+            "Kitchen": 1
+        }
+    }
+}
